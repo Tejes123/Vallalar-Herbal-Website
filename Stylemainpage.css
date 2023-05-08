@@ -1,0 +1,266 @@
+
+.items{
+    display: flex;
+    align-content: space-between;
+    justify-content:space-between;
+    align-items :center;
+    padding:5px;
+    border: 3px solid powderblue;
+    background-color: rgb(20, 149, 241);
+    height:60px;
+    overflow: hidden;
+    }
+.itemslink{
+    color:whitesmoke;
+    font-size: 18px;
+    background-color:none;
+    text-decoration: none;
+    padding: 5px 20px;;
+    width: auto;
+    text-align: center;
+    border-radius: 0px 10px 0px 10px;
+    transition:0.3s;
+    }
+.items a:hover{
+    transform: scale(1.2,1.2);
+    color:yellowgreen;
+    }
+.navimage{
+    height: 60px;
+    width: 70px;
+    }
+.navdiv{
+    margin:0px;
+    padding:0px;
+    }
+.mainnavlink{
+    float:left;
+    }
+.logoname{
+    color: white;
+    font-weight: 500;
+    font-size: 25px;
+    background-color:  rgb(20, 149, 241);
+    text-decoration: none;
+    padding: 10px 20px;;
+    width: auto;
+    text-align: center;
+    border-radius: 0px 10px 0px 10px;
+    float: left;
+    transition:0.3s;
+}
+.summeroffer{
+    width: 95%;
+    height:auto;
+    margin: auto;
+    margin-top: 40px;
+    border-radius:15px;
+    background-image: url("Images/summer.jpg");
+    background-repeat: repeat-y;
+    box-shadow:  0px 5px 20px 0px rgba(0,0,0,0.5);
+    background-size: 100%, 100%;
+}
+.summerprod {
+    font-family:'Poppins', sans-serif;;
+    font-size: 16px;
+    border-radius:10px;
+    background-color: rgb(244, 241, 241);
+    padding: 10px;
+    color:black;
+    box-shadow:  0px 5px 10px 0px rgba(0,0,0,0.5);
+}
+.summerprod1 {
+    font-family:'Arial', sans-serif;
+    font-size: 16px;
+    border-radius:10px;
+    background-color: rgb(255,255,255,0.15);
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 0px 7px 0px black inset;
+    padding: 10px;
+    color:black;
+    transition: 3s;
+}
+.addtocart{
+    display: block;
+    margin: auto;
+    padding: 10px;
+    background-image: linear-gradient(to bottom right,rgb(68, 236, 87), rgb(56, 139, 78));
+    color: whitesmoke;
+    font-size: 15px;
+    border-radius: 7px;
+    border: 1px solid green;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.addtocart:hover{
+    transform: scale(0.93,0.93);
+    background-image: linear-gradient(to bottom right,rgb(9, 217, 33), rgb(148, 231, 81));
+    border: 1px solid rgb(128, 83, 0);
+    color: white;
+}
+.summerhead{
+    margin-top: 10px;
+    margin: auto;
+    color:rgb(168, 65, 21);
+    font-size: 25px;
+    text-align: center;
+    height:50px;
+    width:auto;
+    padding: 10px;
+}
+.gridcontainer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows : auto auto auto auto ;
+    gap: 20px;
+    padding: 15px;
+}
+.offerimage{
+    width:"400px";
+    height:"200px";
+    display: block;
+    margin:auto; 
+    margin-bottom: 10px; 
+    border-radius:50px; 
+    box-shadow:  0px 0px 15px 0px rgb(227, 227, 2);
+    border: 2px solid orange;
+    transition: 0.5s;
+}
+.offerimage:hover{
+    transform: rotate(-5deg);
+}
+.images{
+    width:100%;
+    height:150px;
+}
+.imagesum{
+    width:100%;
+    height:150px;
+    border-radius: 40%;
+}
+.big{
+    font-size: 20px;
+    font-weight: 900;
+    color:rgb(11, 174, 57)
+}
+.small{
+    color:rgba(169, 14, 14, 0.8);
+}
+.mostbought{
+    color:black;
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    text-shadow:  1px 1px 20px rgb(195, 236, 13);
+}
+.mostboughtgrid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows : auto auto;
+    gap: 20px;
+    padding: 15px;
+    height: auto;
+}
+.intro{
+    height: 300px;
+    display: inline-block;
+    margin-top: 30px;
+    margin:auto;
+    text-align : center;
+    line-height: 25px;
+    padding: 10px;
+    overflow:auto;
+}
+.ayurveda{
+    width: 30%;
+    height:250px;
+    float: right;
+    margin-left: 20px;
+    box-shadow:  0px 0px 15px 0px rgba(0,0,0,0.5);
+    transition: 0.5s;
+}
+.ayurveda:hover{
+    transform: perspective(700px) rotateY(-30deg);
+    transform-style: preserve-3d;
+}
+.ayurveda1{
+    width: 30%;
+    height:250px;
+    box-shadow:  0px 0px 15px 0px rgba(0,0,0,0.5);
+    transition: 0.5s;
+    float: left; 
+    margin-left: 10px; 
+    margin-right: 20px;
+}
+.ayurveda1:hover{
+    transform: perspective(700px) rotateY(30deg);
+    transform-style: preserve-3d;
+}
+ footer{
+    height: 200px;
+    width: 98%;
+    padding: 10px;
+    margin: auto;
+    background-color: rgb(26, 98, 222);
+}
+.footgrid{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
+    gap: 20px;
+    margin: auto;
+    align-content: space-around;
+    color: whitesmoke;
+}
+.copyright ,.contact{
+    text-align: center;
+    color:whitesmoke;
+    font-size: 18px;;
+}
+.footimage{
+    width: 30px;
+    height: 30px;
+    transition: 0.5s;
+}
+.footimage:hover{
+    transform: translate(0px,-10px);
+}
+.footerlist {
+    list-style-type: none;
+    margin: auto;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+    justify-content: space-between;
+    width: 30%;
+}
+.social {
+    display: inline;
+}
+.logonamefoot {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+.quicklinks {
+    color: white;
+    margin: auto;
+}
+.quicklinks a{
+    text-decoration: none;
+    color:white;
+    transition: 0.3s;
+}
+.quicklinks a:hover{
+    color: rgb(202, 239, 38);
+}
+
+
+
+
+
+
+
+
