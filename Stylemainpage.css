@@ -7,7 +7,7 @@
     padding:5px;
     border: 3px solid powderblue;
     background-color: rgb(20, 149, 241);
-    height:60px;
+    height:auto;
     overflow: hidden;
     }
 .itemslink{
@@ -74,7 +74,6 @@
     font-size: 16px;
     border-radius:10px;
     background-color: rgb(255,255,255,0.15);
-    backdrop-filter: blur(5px);
     box-shadow: 0px 0px 7px 0px black inset;
     padding: 10px;
     color:black;
@@ -182,7 +181,7 @@
 }
 .ayurveda:hover{
     transform: perspective(700px) rotateY(-30deg);
-    transform-style: preserve-3d;
+    /*transform-style: preserve-3d;*/
 }
 .ayurveda1{
     width: 30%;
@@ -256,11 +255,82 @@
 .quicklinks a:hover{
     color: rgb(202, 239, 38);
 }
+.cartname{
+    font-size: 50px;
+    text-align: center;
+}
+.carthead{
+    display: flex;
+    padding:5px;
+    width: 90%;
+    margin: auto;
+    border: 1px solid black;
+}
+.cartRowHeaders{
+    color: blue;
+    font-size: 30px;
+}
+.cartHeadItem{
+    padding-right: 31%;
+    padding-left: 18%;
+}
+.cartHeadQty{
+    padding-left: 5%;
+}
+.cartItemsBox{
+    margin: auto;
+    width: 90%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
 
-
-
-
-
-
-
-
+}
+.cartImage{
+    width:20%;
+    height:20%;
+    border-radius: 10px;
+}
+.cartTitle{
+    display:inline-block;
+    width: 25%;
+    padding: 10px;
+    
+}
+.cartPrice{
+    text-align: center;
+    font-size: 18px;
+    padding: 1% 10%;
+}
+.cartQuantity {
+    width: 50px;  
+    height: 50px;
+    text-align: center;
+    font-size: 18px;
+}
+.removebutton{
+    color: white;
+    padding: 12px;
+    background-color: brown;
+    margin-left: 8%;
+    border-radius:5px;
+    cursor: pointer;
+}
+.total{
+    font-size: 30px;
+    text-align:left;
+    padding: 20px;
+    background-color: bisque;
+    color:rgb(56, 139, 78)
+}
+.purchase{
+    display: block;
+    margin: auto;
+    padding: 10px;
+    background-image: linear-gradient(to bottom right,rgb(68, 236, 87), rgb(56, 139, 78));
+    color: whitesmoke;
+    font-size: 15px;
+    border-radius: 7px;
+    border: 1px solid green;
+    cursor: pointer;
+    transition: 0.2s;
+}
